@@ -1,6 +1,6 @@
 # Test poetry python references
 
-This project is a test to implement three python projects (poetrytest, dep1 and dep2) that depend on each other in a chain. Each of them is packaged as a local python package and has a pyproject.toml file.
+This project is a test to implement three python projects (poetrytest, dep1 and dep2) that depend on each other in a chain. Each of them is packaged as a local python package and has a pyproject.toml file. It uses [poetry](https://python-poetry.org/) for resolving the relative references.
 
 All three projects can be installed in a new python venv by these commands:
 
