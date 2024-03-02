@@ -17,7 +17,7 @@ pip install ./poetrytest
 # Call the Script
 meinscri
 
-# Dactivate venv
+# Deactivate venv
 deactivate
 
 # Remove venv
