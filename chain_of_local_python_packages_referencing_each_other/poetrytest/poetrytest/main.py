@@ -1,4 +1,6 @@
 from dep1 import testi
 def start():
     testi()
-start()
+
+if __name__ == "__main__":
+    start()

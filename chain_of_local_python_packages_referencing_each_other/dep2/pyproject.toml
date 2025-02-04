@@ -1,9 +1,10 @@
-[tool.poetry]
+[project]
 name = "dep2"
 version = "0.1.0"
 description = ""
-authors = ["Patrick Richter <patrick-richter@posteo.de>"]
-readme = "README.md"
+authors = [
+    {name = "Patrick Richter", email = "patrick-richter@posteo.de"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
