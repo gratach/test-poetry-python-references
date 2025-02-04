@@ -1,0 +1,16 @@
+[project]
+name = "localvenvtest"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Patrick Richter", email = "patrick-richter@posteo.de"}
+]
+dependencies = [
+    "cowsay"
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
