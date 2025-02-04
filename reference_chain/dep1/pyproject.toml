@@ -1,18 +1,15 @@
 [tool.poetry]
-name = "poetrytest"
+name = "dep1"
 version = "0.1.0"
 description = ""
-authors = ["Patrick Richter <gratach@gmx.de>"]
+authors = ["Patrick Richter <patrick-richter@posteo.de>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-dep1 = {path = "../dep1"}
+dep2 = {path = "../dep2"}
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
-[tool.poetry.scripts]
-meinscri = "poetrytest.main:start"

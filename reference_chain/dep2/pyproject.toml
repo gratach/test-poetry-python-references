@@ -1,13 +1,12 @@
 [tool.poetry]
-name = "dep1"
+name = "dep2"
 version = "0.1.0"
 description = ""
-authors = ["Patrick Richter <gratach@gmx.de>"]
+authors = ["Patrick Richter <patrick-richter@posteo.de>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-dep2 = {path = "../dep2"}
 
 
 [build-system]
